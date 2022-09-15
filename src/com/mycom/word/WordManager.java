@@ -40,7 +40,7 @@ public class WordManager {
 				wordCRUD.levelList();
 			}
 			else if(menu == 3) {
-				wordCRUD.addWord();
+				wordCRUD.searchWord();
 			}
 			else if(menu == 4) {
 				wordCRUD.addWord();
