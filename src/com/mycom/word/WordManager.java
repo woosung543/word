@@ -36,7 +36,13 @@ public class WordManager {
 				System.out.println("프로그램 종료! 다음에 만나요~");
 				break;
 			}
-			if(menu == 4) {
+			else if(menu == 2) {
+				wordCRUD.levelList();
+			}
+			else if(menu == 3) {
+				wordCRUD.addWord();
+			}
+			else if(menu == 4) {
 				wordCRUD.addWord();
 			}
 			else if(menu == 1) { 
